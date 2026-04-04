@@ -4,7 +4,7 @@ import About from "./components/About";
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col gap-26">
+    <div className="relative flex flex-col">
       <NavBar />
       <Hero />
       <About />

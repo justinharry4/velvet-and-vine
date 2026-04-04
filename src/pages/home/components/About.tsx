@@ -3,7 +3,7 @@ import aboutImage from "@/assets/raster/about.jpeg";
 
 const About = () => {
   return (
-    <div className="mx-28 flex gap-14">
+    <div className="mx-28 my-26 flex gap-14 items-center">
       <div className="basis-[50%]">
         <EyebrowText
           leftLineLength={6}
@@ -23,8 +23,9 @@ const About = () => {
           fallen.
         </p>
       </div>
-      <div className="basis-[50%]">
+      <div className="basis-[50%] relative shadow-[6px_6px_20px_2px_rgba(0,0,0,0.2)]">
         <img src={aboutImage} className="w-full h-full object-cover" />
+        <div className="absolute inset-5 border border-neutral-400/60"></div>
       </div>
     </div>
   );
