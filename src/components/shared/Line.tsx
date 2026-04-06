@@ -1,17 +1,10 @@
 import { cn } from "@/lib/utils";
 
 interface Props {
-  length?: number;
   className?: string;
 }
-const Line = ({ length = 1 }: Props) => {
-  const numLength = length * 5;
-  return (
-    <div
-      style={{ width: `${numLength}px` }}
-      className={cn("h-px bg-[currentColor]")}
-    ></div>
-  );
+const Line = ({ className }: Props) => {
+  return <div className={cn("h-px w-0 bg-[currentColor]", className)}></div>;
 };
 
 export default Line;

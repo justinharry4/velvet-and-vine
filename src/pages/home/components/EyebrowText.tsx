@@ -3,22 +3,22 @@ import { cn } from "@/lib/utils";
 import type { ReactNode } from "react";
 
 interface Props {
-  leftLineLength?: number;
-  rightLineLength?: number;
-  lineLength?: number;
+  leftLine?: string;
+  rightLine?: string;
+  line?: string;
   className?: string;
   children: ReactNode;
 }
 
 const EyebrowText = ({
-  lineLength,
-  leftLineLength,
-  rightLineLength,
+  line,
+  leftLine,
+  rightLine,
   className,
   children,
 }: Props) => {
-  const left = leftLineLength || lineLength || 0;
-  const right = rightLineLength || lineLength || 0;
+  const left = leftLine || line || "w-0";
+  const right = rightLine || line || "w-0";
 
   return (
     <span
@@ -27,9 +27,9 @@ const EyebrowText = ({
         className,
       )}
     >
-      <Line length={left} />
+      <Line className={left} />
       {children}
-      <Line length={right} />
+      <Line className={right} />
     </span>
   );
 };
