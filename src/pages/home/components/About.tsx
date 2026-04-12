@@ -3,7 +3,7 @@ import aboutImage from "@/assets/raster/about.jpeg";
 
 const About = () => {
   return (
-    <div className="mx-28 mt-26 flex gap-14 items-center">
+    <div className="mx-[10%] mt-26 flex gap-14 items-center">
       <div className="basis-[50%]">
         <EyebrowText leftLine="w-7.5" className="text-primary justify-start">
           THE ART OF BLOOM

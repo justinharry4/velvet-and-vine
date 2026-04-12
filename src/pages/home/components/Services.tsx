@@ -28,7 +28,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="mx-[10%] mt-26 mb-26">
+    <div className="mx-[10%] mt-26">
       <EyebrowText className="text-primary">WHAT WE DO</EyebrowText>
       <h2 className="text-center font-heading text-5xl font-bold mt-3">
         Bespoke Botanical Design

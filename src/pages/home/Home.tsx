@@ -2,6 +2,7 @@ import NavBar from "@/components/layout/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
+import Gallery from "./components/Gallery";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
+      <Gallery />
     </div>
   );
 };

@@ -23,7 +23,7 @@ const EyebrowText = ({
   return (
     <span
       className={cn(
-        "flex justify-center items-center gap-2 text-xs tracking-widest",
+        "flex justify-center items-center gap-2 text-xs tracking-widest uppercase",
         className,
       )}
     >
