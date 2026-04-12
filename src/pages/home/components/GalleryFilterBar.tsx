@@ -10,6 +10,7 @@ const GalleryFilterBar = () => {
     <ul className="flex gap-10 mt-8 tracking-wide">
       {filters.map((f) => (
         <li
+          key={f}
           className={cn(
             "flex flex-col gap-1 group cursor-pointer hover:text-accent-700",
             activeFilter == f && "text-accent-700",

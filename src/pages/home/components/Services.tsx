@@ -35,7 +35,7 @@ const Services = () => {
       </h2>
       <div className="flex gap-12 mt-16">
         {services.map((s) => (
-          <ServiceCard service={s} />
+          <ServiceCard key={s.name} service={s} />
         ))}
       </div>
     </div>

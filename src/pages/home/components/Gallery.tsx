@@ -4,7 +4,7 @@ import GalleryGrid from "./GalleryGrid";
 
 const Gallery = () => {
   return (
-    <div className="mx-[10%] mt-40 mb-26 flex flex-col items-center">
+    <div className="mx-[10%] mt-35 flex flex-col items-center">
       <EyebrowText className="flex gap-4 items-center text-primary">
         <span>OUR WORK</span>
         <span className="size-1 bg-[currentColor] rounded-full"></span>
