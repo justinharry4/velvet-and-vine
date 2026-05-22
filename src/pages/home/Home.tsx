@@ -4,6 +4,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Gallery from "./components/Gallery";
 import Trust from "./components/Trust";
+import ProcessSteps from "./components/ProcessSteps";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Services />
       <Gallery />
       <Trust />
+      <ProcessSteps />
     </div>
   );
 };

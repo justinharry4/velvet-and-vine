@@ -1,5 +1,3 @@
-import { ArrowRight } from "lucide-react";
-
 import Line from "@/components/shared/Line";
 import Scrim from "./Scrim";
 import {
@@ -9,6 +7,7 @@ import {
   CardDescription,
   CardFooter,
 } from "@/components/ui/card";
+import ButtonLink from "@/components/shared/ButtonLink";
 
 interface Service {
   name: string;
@@ -38,12 +37,7 @@ const ServiceCard = ({ service }: Props) => {
         <CardDescription className="">{service.description}</CardDescription>
       </CardHeader>
       <CardFooter className="py-0 px-2 border-0 bg-transparent">
-        <div className="flex flex-col gap-0.5 ">
-          <a className="peer relative cursor-pointer flex items-center gap-1.5 tracking-wide hover:text-accent-700">
-            EXPLORE <ArrowRight size={14} />
-          </a>
-          <Line className="w-0 bg-accent-700/50 peer-hover:w-full" />
-        </div>
+        <ButtonLink>EXPLORE</ButtonLink>
       </CardFooter>
     </Card>
   );
