@@ -1,4 +1,5 @@
 import NavBar from "@/components/shared/NavBar";
+import Footer from "@/components/shared/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -18,6 +19,7 @@ const Home = () => {
       <Trust />
       <ProcessSteps />
       <FinalCTA />
+      <Footer />
     </div>
   );
 };
