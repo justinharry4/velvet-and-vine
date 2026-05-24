@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Gallery from "./components/Gallery";
 import Trust from "./components/Trust";
 import ProcessSteps from "./components/ProcessSteps";
+import FinalCTA from "./components/FinalCTA";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Gallery />
       <Trust />
       <ProcessSteps />
+      <FinalCTA />
     </div>
   );
 };

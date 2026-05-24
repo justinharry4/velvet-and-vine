@@ -51,7 +51,7 @@ const ProcessSteps = () => {
   ];
 
   return (
-    <div className="mt-26 mx-[15%] mb-26">
+    <div className="mt-26 mx-[15%]">
       <EyebrowText className="flex gap-4 text-primary">
         The Experience <Dot /> How it Works
       </EyebrowText>
