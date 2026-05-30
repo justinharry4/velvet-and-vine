@@ -7,7 +7,7 @@ import Flower from "@/assets/vectors/peony-flower.svg?react";
 
 const FinalCTA = () => {
   return (
-    <div className="group/dark relative mt-26 min-h-[90vh]">
+    <section className="group/dark relative mt-26 min-h-[90vh]">
       <div className="absolute inset-0 bg-linear-[160deg] from-brand-900 via-brand-950 to-brand-800"></div>
       <div className="absolute inset-0 bg-radial-[at_50%_10%] from-brand-400/25 to-transparent to-30%"></div>
       <div className="relative inset-0 py-30">
@@ -49,7 +49,7 @@ const FinalCTA = () => {
           />
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

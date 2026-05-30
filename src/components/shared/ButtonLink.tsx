@@ -2,9 +2,6 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 
-import Line from "./Line";
-import { Button } from "../ui/button";
-
 interface Props {
   className?: string;
   children: ReactNode;

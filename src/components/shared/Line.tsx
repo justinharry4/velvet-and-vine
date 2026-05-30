@@ -4,7 +4,7 @@ interface Props {
   className?: string;
 }
 const Line = ({ className }: Props) => {
-  return <div className={cn("h-px w-0 bg-[currentColor]", className)}></div>;
+  return <span className={cn("h-px w-0 bg-[currentColor]", className)}></span>;
 };
 
 export default Line;

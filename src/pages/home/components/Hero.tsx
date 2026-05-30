@@ -5,7 +5,7 @@ import Scrim from "./Scrim";
 
 const Hero = () => {
   return (
-    <div className="dark relative h-svh flex flex-col items-center justify-center">
+    <section className="dark relative h-svh flex flex-col items-center justify-center">
       <img
         src={heroImage}
         alt="Hero Image"
@@ -30,7 +30,7 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

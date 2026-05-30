@@ -26,7 +26,7 @@ const Trust = () => {
   ];
 
   return (
-    <div className="mx-[10%] mt-30">
+    <section className="mx-[10%] mt-30">
       <EyebrowText className="text-primary">As featured in</EyebrowText>
       <div className="mt-12 flex gap-x-16 gap-y-10 flex-wrap justify-center">
         {brandLogos.map((Logo, index) => (
@@ -38,7 +38,7 @@ const Trust = () => {
           <TestimonialCard testimonial={t} key={t.customer} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -67,7 +67,11 @@ const Footer = () => {
         </div>
         <div className="flex justify-between grow">
           {navItems.map((navItem) => (
-            <NavList title={navItem.title} links={navItem.links} />
+            <NavList
+              key={navItem.title}
+              title={navItem.title}
+              links={navItem.links}
+            />
           ))}
         </div>
       </div>

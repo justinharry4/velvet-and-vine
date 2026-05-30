@@ -51,7 +51,7 @@ const ProcessSteps = () => {
   ];
 
   return (
-    <div className="mt-26 mx-[15%]">
+    <section className="mt-26 mx-[15%]">
       <EyebrowText className="flex gap-4 text-primary">
         The Experience <Dot /> How it Works
       </EyebrowText>
@@ -82,7 +82,7 @@ const ProcessSteps = () => {
           All consultations are complimentary and without obligation
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
