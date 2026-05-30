@@ -17,7 +17,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="dark absolute z-50 flex items-center w-full justify-between px-6 py-4 bg-transparent text-neutral-50">
+    <header className="dark absolute z-50 flex items-center w-full justify-between px-6 py-5 bg-transparent text-neutral-50">
       <div className="flex gap-2 items-center">
         <VnvLogo className="w-8 h-auto" />
         <div className="inline-block font-brand font-semibold text-xl">
@@ -28,14 +28,14 @@ const NavBar = () => {
         <NavigationMenuList>
           {navItems.map((n) => (
             <NavigationMenuItem key={n.title}>
-              <NavigationMenuLink className="hover:bg-transparent hover:text-accent">
+              <NavigationMenuLink className="hover:bg-transparent hover:text-accent-400">
                 {n.title.toUpperCase()}
               </NavigationMenuLink>
             </NavigationMenuItem>
           ))}
         </NavigationMenuList>
       </NavigationMenu>
-      <Button className="font-semibold rounded-none">Book Consultation</Button>
+      <Button className="mx-6">Book Consultation</Button>
     </header>
   );
 };

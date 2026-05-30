@@ -17,7 +17,7 @@ const FinalCTA = () => {
         <EyebrowText className="text-accent-300">
           One Conversation Changes Everything
         </EyebrowText>
-        <h2 className="mt-10 font-heading text-8xl text-neutral-50 text-center">
+        <h2 className="mt-10 font-heading text-[80px] leading-none text-neutral-50 text-center">
           Let's Create Something
           <br /> Extraordinary
         </h2>

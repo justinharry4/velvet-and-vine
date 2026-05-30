@@ -11,7 +11,7 @@ const Hero = () => {
         alt="Hero Image"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <Scrim />
+      <Scrim className="to-neutral-950/50" />
       <div className="relative z-10 flex flex-col justify-center text-center bg gap-6 w-2/3 md:1/2 text-neutral-50">
         <EyebrowText line="w-5">EST. 2024 PARIS</EyebrowText>
         <h1 className="font-heading text-7xl font-bold">
