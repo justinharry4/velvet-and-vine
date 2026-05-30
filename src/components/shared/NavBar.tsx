@@ -17,7 +17,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="absolute z-50 flex items-center w-full justify-between px-6 py-4 bg-transparent text-neutral-50">
+    <header className="dark absolute z-50 flex items-center w-full justify-between px-6 py-4 bg-transparent text-neutral-50">
       <div className="flex gap-2 items-center">
         <VnvLogo className="w-8 h-auto" />
         <div className="inline-block font-brand font-semibold text-xl">

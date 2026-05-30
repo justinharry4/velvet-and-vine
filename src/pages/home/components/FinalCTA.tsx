@@ -7,7 +7,7 @@ import Flower from "@/assets/vectors/peony-flower.svg?react";
 
 const FinalCTA = () => {
   return (
-    <div className="relative mt-26 min-h-[90vh]">
+    <div className="group/dark relative mt-26 min-h-[90vh]">
       <div className="absolute inset-0 bg-linear-[160deg] from-brand-900 via-brand-950 to-brand-800"></div>
       <div className="absolute inset-0 bg-radial-[at_50%_10%] from-brand-400/25 to-transparent to-30%"></div>
       <div className="relative inset-0 py-30">
@@ -25,9 +25,13 @@ const FinalCTA = () => {
           Every extraordinary event begins with a single conversation.
           <br /> Yours is waiting
         </p>
-        <div className="mt-15 flex justify-center gap-6">
-          <Button>BEGIN YOUR CONSULTATION</Button>
-          <Button variant={"secondary"}>VIEW OUR WORK</Button>
+        <div className="dark mt-15 flex max-w-130 mx-auto justify-center gap-6">
+          <Button size="lg" className="flex-1">
+            BEGIN YOUR CONSULTATION
+          </Button>
+          <Button variant="secondary" size="lg" className="flex-1">
+            VIEW OUR WORK
+          </Button>
         </div>
         <p className="mt-14 flex justify-center items-center gap-1 text-accent-300/60">
           <Sparkle

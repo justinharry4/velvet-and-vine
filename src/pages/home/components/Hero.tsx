@@ -5,7 +5,7 @@ import Scrim from "./Scrim";
 
 const Hero = () => {
   return (
-    <div className="relative h-svh flex flex-col items-center justify-center">
+    <div className="dark relative h-svh flex flex-col items-center justify-center">
       <img
         src={heroImage}
         alt="Hero Image"
@@ -21,9 +21,13 @@ const Hero = () => {
           Curating timeless elegance with rare botanicals for weddings and
           exclusive events across the globe.
         </p>
-        <div className="flex gap-4 justify-center mt-4">
-          <Button>View the Portfolio</Button>
-          <Button variant="outline">Inquire for 2026</Button>
+        <div className="flex gap-4 max-w-100 mx-auto justify-center mt-4">
+          <Button size="lg" className="flex-1">
+            View the Portfolio
+          </Button>
+          <Button variant="secondary" size="lg" className="flex-1">
+            Inquire for 2026
+          </Button>
         </div>
       </div>
     </div>
