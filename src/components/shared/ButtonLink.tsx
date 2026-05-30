@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 
 import Line from "./Line";
+import { Button } from "../ui/button";
 
 interface Props {
   className?: string;
@@ -11,12 +12,14 @@ interface Props {
 
 const ButtonLink = ({ className, children }: Props) => {
   return (
-    <span className={cn("inline-flex flex-col gap-0.5 ", className)}>
-      <a className="peer relative cursor-pointer inline-flex items-center gap-1.5 tracking-wide hover:text-accent-700">
-        {children} <ArrowRight size={14} />
-      </a>
-      <Line className="w-0 bg-accent-700/50 peer-hover:w-full" />
-    </span>
+    <a
+      className={cn(
+        "relative pb-1.25 cursor-pointer inline-flex items-center gap-1.5 text-xs tracking-widest hover:text-accent-700 after:absolute after:bottom-px after:left-0 after:h-px after:w-full after:bg-accent-700/25 hover:after:bg-accent-700/50",
+        className,
+      )}
+    >
+      {children} <ArrowRight size={14} />
+    </a>
   );
 };
 
